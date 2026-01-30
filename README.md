@@ -145,15 +145,40 @@ The dashboard in this project is currently implemented as a **static UI** to sho
 
 ## 📸 Screenshots
 
-- Home Page
+## - Home Page
 
 ![Home](./screenshorts_for_readme_file/Home.png)
 
-- Course List
-- Course Details
-- Admin Dashboard
-- Role Management
-- Responsive UI
+## - Course List
+
+![Course List](./screenshorts_for_readme_file/Course-List.png)
+  
+## - Course Details
+
+![Course Details(1)](./screenshorts_for_readme_file/Course-Details(1).png)
+
+![Course Details(2)](./screenshorts_for_readme_file/Course-Details(2).png)
+
+## - Admin Dashboard
+
+![Dashboard](./screenshorts_for_readme_file/Dashboard.png)
+
+## - Create Courses
+
+![Create Courses(1)](./screenshorts_for_readme_file/Create-Course(1).png)
+
+![Create Courses(2)](./screenshorts_for_readme_file/Create-Course(2).png)
+
+![Create Courses(3)](./screenshorts_for_readme_file/Create-Course(3).png)
+
+
+## - Role Management
+
+![Roles](./screenshorts_for_readme_file/Roles.png)
+
+## - Responsive UI
+
+![ResponsiveUI](./screenshorts_for_readme_file/ResponsiveUI.png)
 
 ---
 
