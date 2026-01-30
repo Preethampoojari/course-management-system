@@ -145,9 +145,10 @@ The dashboard in this project is currently implemented as a **static UI** to sho
 
 ## 📸 Screenshots
 
-> (Add screenshots here for more impact)
-
 - Home Page
+
+
+
 - Course List
 - Course Details
 - Admin Dashboard
