@@ -147,7 +147,7 @@ The dashboard in this project is currently implemented as a **static UI** to sho
 
 - Home Page
 
-![Home](./screenshots_for_readme_file/Home.png)
+![Home](./screenshorts_for_readme_file/Home.png)
 
 - Course List
 - Course Details
