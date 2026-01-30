@@ -3,19 +3,13 @@
 import { PlayCircle, Lock } from "lucide-react";
 import { useEffect, useState } from "react";
 import VideoPlayer from "./VideoPlayer";
+import { Lecture } from "@/types/lecture";
 
-type Lecture = {
-  _id: string;
-  lectureTitle: string;
-  videoUrl: string;
-  isPreviewFree?: boolean;
+type Props = {
+  lectures: Lecture[];
 };
 
-export default function CourseLectureCard({
-  lectures,
-}: {
-  lectures: Lecture[];
-}) {
+export default function CourseLectureCard({ lectures }: Props) {
   const [selectedLecture, setSelectedLecture] = useState<Lecture | null>(null);
   useEffect(() => {
     console.log("✅ selectedLecture updated:", selectedLecture);
@@ -71,7 +65,7 @@ export default function CourseLectureCard({
         {/* RIGHT SIDE */}
         <div className="flex-1">
           {selectedLecture ? (
-            <VideoPlayer url={selectedLecture?.videoUrl} />
+            <VideoPlayer url={selectedLecture?.videoUrl || ""} />
           ) : (
             <div className="h-62.5 flex items-center justify-center bg-gray-100 rounded-md text-gray-500">
               Select a free lecture to watch 🎥

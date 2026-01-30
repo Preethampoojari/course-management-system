@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CourseLectureCard from "@/components/CourseLectureCard";
 import { cookies } from "next/headers";
-
+import { Lecture } from "@/types/lecture";
 import { Metadata } from "next";
 import connectDB from "@/lib/db";
 import { Course } from "@/models/Course";
@@ -43,14 +43,6 @@ type Course = {
   courseThumbnail?: string;
   coursePrice: number;
   creator?: Creator;
-};
-
-type Lecture = {
-  _id: string;
-  lectureTitle: string;
-  videoUrl?: string;
-  publicId?: string;
-  isPreviewFree?: boolean;
 };
 
 async function getCourse(courseId: string): Promise<Course | null> {
