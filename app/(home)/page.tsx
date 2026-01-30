@@ -37,7 +37,7 @@ export default async function Home() {
     <div>
       <Hero />
 
-      <div className="pt-10">
+      <div className="px-5 pt-10">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
           Learn from the best
         </h1>
