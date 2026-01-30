@@ -9,7 +9,7 @@ This project demonstrates real-world full-stack architecture, scalable design, a
 ## 🚀 Live Demo
 
 🔗 **Live Project:**  
-👉 https://course-management-system-nine.vercel.app  
+👉 https://course-management-system-nine.vercel.app/  
 
 🔗 **GitHub Repository:**  
 👉 https://github.com/Preethampoojari/course-management-system  
@@ -83,7 +83,6 @@ The dashboard in this project is currently implemented as a **static UI** to sho
 - Fully responsive design
 - Modern UI with Tailwind CSS & shadcn/ui
 - Clean and scalable component architecture
-- Mobile-first approach
 
 ---
 
@@ -162,9 +161,6 @@ The dashboard in this project is currently implemented as a **static UI** to sho
 - Payment integration (Stripe / Razorpay)
 - Student enrollment system
 - Progress tracking & analytics
-- Real-time dashboard data
-- Comments & reviews
-- Video streaming optimization
 
 ---
 
@@ -180,9 +176,9 @@ Feel free to fork this repository and submit a pull request.
 **Preetham Poojari**  
 💼 Full Stack Developer  
 
-- 🌐 Portfolio: (add link if available)
+- 🌐 Portfolio: https://personal-portfolio-psi-five-33.vercel.app/
 - 🐙 GitHub: https://github.com/Preethampoojari
-- 💼 LinkedIn: (add your LinkedIn link)
+- 💼 LinkedIn: https://www.linkedin.com/in/preethampoojari/
 
 ---
 
