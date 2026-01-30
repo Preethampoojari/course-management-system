@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Course Management System (CMS)
 
-## Getting Started
+A full-stack **Course Management System (CMS)** built with **Next.js 16 + TypeScript**, featuring secure authentication, role-based access control, course management, and media uploads.
 
-First, run the development server:
+This project demonstrates real-world full-stack architecture, scalable design, and production-ready features.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 **Live Project:**  
+👉 https://course-management-system-nine.vercel.app  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 **GitHub Repository:**  
+👉 https://github.com/Preethampoojari/course-management-system  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔐 Authentication & Security
+- Clerk-based Sign Up / Sign In
+- Secure session handling
+- Clerk Webhooks integration
+- Protected routes using Next.js Middleware
+- Role-Based Access Control (RBAC)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 👥 Role-Based Access System (RBAC)
 
-## Deploy on Vercel
+| Role        | Permissions |
+|------------|-----------|
+| **Admin** | Full access, manage courses, assign roles, access dashboard |
+| **Moderator (Instructor)** | Access dashboard, create/manage courses (no role management) |
+| **Student** | View courses and course details only |
+| **Guest** | Access only the home page |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔎 Demo Access Note (Important)
+
+For demonstration purposes, newly registered users are assigned the **Moderator** role by default.
+
+This allows recruiters and reviewers to:
+
+- Access the Admin Dashboard
+- Create and manage courses
+- Explore core CMS functionalities without manual role assignment
+
+⚠️ In a real-world production environment, the default role would be **Student**, and role assignment would be strictly controlled by Admin users only.  
+This setup is intentionally configured to make the project easily testable.
+
+---
+
+## 📊 Dashboard Note
+
+The dashboard in this project is currently implemented as a **static UI** to showcase layout design and user experience.
+
+- The dashboard represents a future-ready structure for analytics and user metrics.
+- Dynamic data integration can be added in future iterations.
+
+---
+
+## 📚 Course Management Features
+
+- Create, update, and publish courses
+- Upload course thumbnails and videos
+- View course details and curriculum
+- Admin & Moderator dashboards
+- Secure API endpoints
+
+---
+
+## ☁️ Media Upload System
+
+- Image & video uploads using **Cloudinary**
+- File processing using **DataURI**
+- Secure and optimized media storage
+
+---
+
+## 🎨 UI & UX
+
+- Fully responsive design
+- Modern UI with Tailwind CSS & shadcn/ui
+- Clean and scalable component architecture
+- Mobile-first approach
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide Icons
+
+### Backend
+- Next.js API Routes (Route Handlers)
+- MongoDB Atlas
+- Mongoose ODM
+
+### Authentication & Authorization
+- Clerk Authentication
+- Clerk Webhooks
+- Role-Based Access Control (RBAC)
+
+### Media & Storage
+- Cloudinary
+- DataURI
+
+### Deployment & Tools
+- Vercel
+- Git & GitHub
+- Environment Variables (.env)
+- REST APIs
+- Next.js Middleware
+
+---
+
+## 🏗️ Project Architecture
+- course-management-system/
+- ├── app/ # Next.js App Router
+- ├── components/ # Reusable UI components
+- ├── api/ # Backend API routes
+- ├── lib/ # Utility functions
+- ├── models/ # MongoDB schemas
+- ├── types/ # TypeScript types
+- ├── middleware.ts # Route protection
+
+
+---
+
+## 🔥 Highlights
+
+- ✅ Full-stack Next.js architecture
+- ✅ Enterprise-level RBAC system
+- ✅ Secure APIs & protected routes
+- ✅ Scalable folder structure
+- ✅ Production-ready deployment
+- ✅ Clean and maintainable codebase
+- ✅ Real-world CMS functionality
+
+---
+
+## 📸 Screenshots
+
+> (Add screenshots here for more impact)
+
+- Home Page
+- Course List
+- Course Details
+- Admin Dashboard
+- Role Management
+- Responsive UI
+
+---
+
+## 🚧 Future Improvements
+
+- Payment integration (Stripe / Razorpay)
+- Student enrollment system
+- Progress tracking & analytics
+- Real-time dashboard data
+- Comments & reviews
+- Video streaming optimization
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 👤 Author
+
+**Preetham Poojari**  
+💼 Full Stack Developer  
+
+- 🌐 Portfolio: (add link if available)
+- 🐙 GitHub: https://github.com/Preethampoojari
+- 💼 LinkedIn: (add your LinkedIn link)
+
+---
+
+⭐ If you like this project, give it a star!
+
