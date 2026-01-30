@@ -178,7 +178,9 @@ The dashboard in this project is currently implemented as a **static UI** to sho
 
 ## - Responsive UI
 
-![ResponsiveUI](./screenshorts_for_readme_file/ResponsiveUI.png)
+![ResponsiveUI(1)](./screenshorts_for_readme_file/ResponsiveUI(1).png)
+
+![ResponsiveUI(1)](./screenshorts_for_readme_file/ResponsiveUI(1).png)
 
 ---
 
